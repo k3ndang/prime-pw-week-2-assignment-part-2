@@ -165,7 +165,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// intructions ask to write age >= age not minAge <= age
+// so need to change (age >= minAge)
 if(minAge <= age) {
 // it should be console.log('enter');
   console.log('no entry');
